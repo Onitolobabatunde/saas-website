@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import {
-  BarChart3,
   Menu,
   X
 } from "lucide-react";
@@ -32,9 +31,6 @@ export default function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="bg-primary/10 p-2 rounded-lg">
-            <BarChart3 className="h-6 w-6 text-primary" />
-          </div>
           <span className="font-heading font-bold text-xl tracking-tight">Nexus</span>
         </Link>
 
